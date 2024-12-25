@@ -3,6 +3,14 @@ slock - simple screen locker
 simple screen locker utility for X.
 
 
+Customization of this fork
+--------------------------
+Just change the INIT color in config.def.h as the default black
+background is hard to distinguish with poweroff/suspend/hibernate
+screen. By the way, change the group `nogroup` to `nobody` since
+there isn't such group on my machine.
+
+
 Requirements
 ------------
 In order to build slock you need the Xlib header files.
